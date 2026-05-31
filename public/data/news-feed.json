@@ -1,0 +1,71 @@
+{
+  "last_updated": "2026-05-31T07:42:00Z",
+  "agent_push": "2026-05-31T06:58:00Z",
+  "stories": [
+    {
+      "id": "story-001",
+      "time": "06:41",
+      "date": "2026-05-31",
+      "category": "genai",
+      "tag": "GenAI",
+      "headline": "Anthropic releases Claude 4 with extended context — 500K token window reshapes enterprise RAG architecture decisions",
+      "headline_bold": "Anthropic releases Claude 4 with extended context",
+      "source": "The Verge",
+      "source_url": "https://theverge.com",
+      "impact": "h",
+      "summary": "The 500K token window fundamentally changes RAG design tradeoffs. Enterprises will reconsider chunking strategies and retrieval pipelines built for shorter context models."
+    },
+    {
+      "id": "story-002",
+      "time": "06:12",
+      "date": "2026-05-31",
+      "category": "arch",
+      "tag": "Architecture",
+      "headline": "Databricks Unity Catalog adds AI asset governance — models, prompts and embeddings now first-class governed objects alongside tables",
+      "headline_bold": "Databricks Unity Catalog adds AI asset governance",
+      "source": "Databricks Blog",
+      "source_url": "https://databricks.com/blog",
+      "impact": "h",
+      "summary": "This closes the gap between data governance and model governance. Single lineage graph from raw data to model output is now achievable on Databricks."
+    },
+    {
+      "id": "story-003",
+      "time": "05:58",
+      "date": "2026-05-31",
+      "category": "gov",
+      "tag": "Governance",
+      "headline": "EU AI Act enforcement begins Q3 2026 — data lineage requirements tighten for any AI system touching EU citizen data",
+      "headline_bold": "EU AI Act enforcement begins Q3 2026",
+      "source": "Reuters",
+      "source_url": "https://reuters.com",
+      "impact": "h",
+      "summary": "High-risk AI systems must now demonstrate data provenance. Organizations without mature lineage tooling face 6-figure fines starting September."
+    },
+    {
+      "id": "story-004",
+      "time": "05:30",
+      "date": "2026-05-31",
+      "category": "biz",
+      "tag": "Business Impact",
+      "headline": "Gartner: 68% of CDOs report AI projects blocked by data quality issues, not model capability — confirms data-first thesis",
+      "headline_bold": "68% of CDOs report AI projects blocked by data quality issues",
+      "source": "Gartner",
+      "source_url": "https://gartner.com",
+      "impact": "h",
+      "summary": "The number is up from 51% in 2024. The data-first narrative is now mainstream — the window to differentiate on this positioning is narrowing."
+    },
+    {
+      "id": "story-005",
+      "time": "04:55",
+      "date": "2026-05-31",
+      "category": "tool",
+      "tag": "Tooling",
+      "headline": "dbt Cloud launches Semantic Layer v2 — native LLM query routing for natural language BI without custom middleware",
+      "headline_bold": "dbt Cloud launches Semantic Layer v2",
+      "source": "dbt Labs Blog",
+      "source_url": "https://getdbt.com/blog",
+      "impact": "m",
+      "summary": "Semantic layer becomes the AI interface layer. Teams with clean dbt models get natural language queries for free. Teams without pay the tax in hallucinations."
+    }
+  ]
+}
