@@ -36,8 +36,8 @@ const CONTACT_METHODS = [
     icon: '⬡',
     title: 'Email Directly',
     desc: 'Prefer email? Reach out directly. Responses within one business day.',
-    action: 'sreekanth.tn@live.com',
-    href: 'mailto:sreekanth.tn@live.com',
+    action: 'hello@thedatapedia.com',
+    href: 'mailto:hello@thedatapedia.com',
     accent: 'border-teal-500/30 hover:border-teal-500/60',
   },
 ]
@@ -70,7 +70,7 @@ export default function ContactPage() {
       setState('success')
     } catch {
       setState('error')
-      setErrorMsg('Something went wrong. Please email sreekanth.tn@live.com directly.')
+      setErrorMsg('Something went wrong. Please email hello@thedatapedia.com directly.')
     }
   }
 
