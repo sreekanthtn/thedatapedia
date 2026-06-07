@@ -30,7 +30,7 @@ export default async function HomePage() {
             </p>
             <div className="flex gap-4 flex-wrap">
               <a href="#assessment" className="btn-primary">Get Free Data Readiness Audit</a>
-              <a href="#framework" className="btn-ghost">See Our Framework</a>
+              <a href="framework" className="btn-ghost">See Our Framework</a>
             </div>
             <div className="flex gap-10 mt-16 pt-10 border-t border-black/10">
               {[
