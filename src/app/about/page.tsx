@@ -75,9 +75,9 @@ export default function AboutPage() {
             <div>
               <div className="text-[10px] tracking-widest uppercase text-white/25 mb-6">// Founder Profile</div>
               <div className="w-16 h-16 rounded-full bg-brand/20 border border-brand/40 flex items-center justify-center mb-6">
-                <span className="font-serif text-2xl font-bold text-brand">S</span>
+                <span className="font-serif text-2xl font-bold text-brand">TC</span>
               </div>
-              <div className="font-sans text-xl font-semibold text-white mb-1">Sreekanth Narayanan</div>
+              <div className="font-sans text-xl font-semibold text-white mb-1">The Curator</div>
               <div className="text-[12px] text-white/40 mb-6">Data & AI Architect · Consultant · Educator</div>
               <div className="space-y-3 text-[12px]">
                 {[
