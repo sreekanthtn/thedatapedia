@@ -36,8 +36,8 @@ const CONTACT_METHODS = [
     icon: '⬡',
     title: 'Email Directly',
     desc: 'Prefer email? Reach out directly. Responses within one business day.',
-    action: 'hello@thedatapedia.com',
-    href: 'mailto:hello@thedatapedia.com',
+    action: 'Use the form below',
+    href: '#form',
     accent: 'border-teal-500/30 hover:border-teal-500/60',
   },
 ]
