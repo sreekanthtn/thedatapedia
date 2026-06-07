@@ -22,15 +22,15 @@ const ibmMono = IBM_Plex_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'TheDatapedia — AI-Ready Data Strategy & Architecture',
+  title: 'The Datapedia — AI-Ready Data Strategy & Architecture',
   description:
     'The practitioner resource for AI-Ready Data. Strategy, architecture, and acceleration for enterprise data & AI initiatives.',
   metadataBase: new URL('https://thedatapedia.com'),
   openGraph: {
-    title: 'TheDatapedia — AI-Ready Data Strategy & Architecture',
+    title: 'The Datapedia — AI-Ready Data Strategy & Architecture',
     description: 'Is your data ready for AI? Find out with our free 23-dimension assessment.',
     url: 'https://thedatapedia.com',
-    siteName: 'TheDatapedia',
+    siteName: 'The Datapedia',
     type: 'website',
   },
   twitter: {
