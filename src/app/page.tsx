@@ -155,7 +155,7 @@ export default async function HomePage() {
       <footer className="bg-paper-warm border-t border-black/10 px-10 lg:px-20 py-12">
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-10">
           <div className="col-span-2 md:col-span-1">
-            <div className="font-serif text-xl font-bold text-ink mb-3">TheDatapedia</div>
+            <div className="font-serif text-xl font-bold text-ink mb-3">The Datapedia</div>
             <p className="text-sm text-ink-faint leading-relaxed max-w-xs">
               The practitioner resource for AI-Ready Data strategy, architecture, and acceleration.
             </p>
@@ -181,7 +181,7 @@ export default async function HomePage() {
         </div>
         <div className="max-w-7xl mx-auto mt-10 pt-6 border-t border-black/10 flex justify-between">
           <span className="font-mono text-[10px] text-ink-faint tracking-wider">
-            © 2026 TheDatapedia · thedatapedia.com
+            © 2026 The Datapedia · thedatapedia.com
           </span>
           <span className="font-mono text-[10px] text-ink-faint tracking-wider">Privacy · Terms</span>
         </div>
