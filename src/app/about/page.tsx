@@ -3,8 +3,8 @@ import Footer from '@/components/ui/Footer'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'About — TheDatapedia',
-  description: 'TheDatapedia is a Data & AI consulting practice founded by a practitioner — not a management consulting firm. Real architecture, real code, real outcomes.',
+  title: 'About — The Datapedia',
+  description: 'The Datapedia is a Data & AI consulting practice founded by a practitioner — not a management consulting firm. Real architecture, real code, real outcomes.',
 }
 
 const PRINCIPLES = [
@@ -56,7 +56,7 @@ export default function AboutPage() {
         {/* HERO */}
         <section className="max-w-7xl mx-auto px-8 lg:px-20 pt-20 pb-16 grid grid-cols-1 lg:grid-cols-2 gap-16 border-b border-black/10">
           <div>
-            <div className="section-eyebrow">About TheDatapedia</div>
+            <div className="section-eyebrow">About The Datapedia</div>
             <h1 className="font-serif text-5xl font-black tracking-tight text-ink mb-6 leading-tight">
               Built by a practitioner.<br />
               <span className="text-brand">Not a consulting firm.</span>
@@ -142,7 +142,7 @@ export default function AboutPage() {
         <section className="bg-ink py-20 px-8 lg:px-20">
           <div className="max-w-4xl mx-auto">
             <div className="font-mono text-xs tracking-widest uppercase text-brand mb-3">Journey</div>
-            <h2 className="font-serif text-3xl font-bold text-white mb-12">How TheDatapedia was built</h2>
+            <h2 className="font-serif text-3xl font-bold text-white mb-12">How The Datapedia was built</h2>
             <div className="relative">
               <div className="absolute left-12 top-0 bottom-0 w-px bg-white/5" />
               <div className="space-y-0">
