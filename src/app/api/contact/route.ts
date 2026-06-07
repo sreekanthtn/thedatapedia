@@ -8,6 +8,8 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
     }
 
+    const recipientEmail = process.env.CONTACT_RECIPIENT_EMAIL || 'hello@thedatapedia.com'
+
     const res = await fetch('https://api.resend.com/emails', {
       method: 'POST',
       headers: {
@@ -15,8 +17,8 @@ export async function POST(req: NextRequest) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: 'TheDatapedia Contact <onboarding@resend.dev>',
-        to: ['sreekanth.tn@live.com'],
+        from: 'TheDatapedia <onboarding@resend.dev>',
+        to: [recipientEmail],
         reply_to: email,
         subject: `[TheDatapedia] New inquiry from ${name} — ${company || 'No company'}`,
         html: `
@@ -55,3 +57,4 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: 'Server error' }, { status: 500 })
   }
 }
+
