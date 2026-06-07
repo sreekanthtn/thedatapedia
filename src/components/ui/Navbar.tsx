@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-8 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2.5 no-underline">
           <span className="w-2 h-2 rounded-full bg-brand inline-block" />
-          <span className="font-serif text-xl font-bold tracking-tight text-ink">TheDatapedia</span>
+          <span className="font-serif text-xl font-bold tracking-tight text-ink">The Datapedia</span>
         </Link>
 
         <ul className="hidden md:flex gap-8 list-none">
